@@ -1,0 +1,110 @@
+h2.bar{
+    margin: 5px;
+    padding: 5px;
+    border: 10px solid navy;
+    width: 200px;
+    height: 900px;
+}
+
+h2.chat{
+    margin: 2px;
+    padding:"8px";
+    border: 10px solid navy;
+    width: 1300px;
+
+}
+.app{
+    display: flex;
+}
+    body{
+            margin: 5px;
+            background-color: linen;
+            line-height: 50px;
+        }
+        
+        .logo{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 32px;
+            width: 30vw;
+            
+        }
+        .searchbar{
+            border: 3px solid maroon;
+            width: 28vw;
+        }
+        .searchbar input{
+            width: 90%;
+        }
+
+        #sidebar{
+            border-right: 5px solid maroon;
+            width: 33vw;
+            height: 100vh;
+        }
+        .contact{
+            background-color: white;
+            border: 2px solid maroon;
+            width: 28vw;
+            
+
+        }
+        #chatarea{
+            
+            width: 66vw;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            
+            
+        }
+        #messages{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow-y: auto;
+            
+        }
+        .sent{
+            border-radius: 25px ;
+            background-color: lightgreen;
+            width: fit-content;
+            align-self: flex-end;
+        }
+        .recieved{
+            border-radius:20px ;
+            background-color: white;
+            width: fit-content;
+            
+        }
+    
+        .msgarea {
+            /* border-radius: 20px;
+            border: 5px solid maroon;
+            margin-top:auto ; */
+            margin-top: auto;
+            
+        }
+        .msgarea input{
+            width: 85%;
+        }
+        .msgarea button{
+            width: 10%;
+
+        }
+        #page{
+            display: flex;
+            border: 3px solid maroon;
+            
+        }
+        h2{
+            background-color: bisque;
+        }
+        @media (max-width: 768px){
+    #sidebar{
+        display: none;
+    }
+
+    #chatarea{
+        width: 100vw;
+    }
+}
