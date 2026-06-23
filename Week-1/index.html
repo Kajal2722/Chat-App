@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Chat App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script>
+        function selectContact(name){
+            document.getElementById("Selected-Contact").innerText=name;
+        }
+    </script>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div id="page">
+        
+    <section id="sidebar">
+    <div class="sidebar">
+        <div class="logo">ChatApp</div>
+        <div class="searchbar">  
+            <input type="text" placeholder="Search Contact" >
+        </div> 
+        <div class="contactlist">
+          <div class="contact" onclick="selectContact('Contact1')">Contact1</div>
+
+        <div class="contact" onclick="selectContact('Contact2')">Contact2</div>
+
+        <div class="contact" onclick="selectContact('Contact3')">Contact3</div>
+
+    <div class="contact" onclick="selectContact('Contact4')">Contact4</div>
+    </div>
+    </div>
+    </section>
+    <section id="chatarea">
+        <h2 id="Selected-Contact">Contact Selected</h2>
+        <div id="messages">
+        <div class="sent">Hello, how are you?</div>
+        <div class="recieved">Hii, I am good how are you?</div>
+        </div>
+        <div class="msgarea">
+            <input type="text" placeholder="Type a message.." >
+            <button>Send</button>
+        </div>
+    </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
