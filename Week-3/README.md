@@ -5,18 +5,27 @@ In the third week, I started learning React and explored how modern web applicat
 I learned and implemented concepts such as:
 
 Creating React projects
+
 Functional components
+
 JSX syntax
+
 Props
+
 State management using useState
+
 Event handling in React
+
 Component hierarchy and data flow
 
 To make the application modular, I divided it into separate components, including:
 
 Sidebar
+
 Chat Window
+
 Message Bubble
+
 Message Input
 
 This helped me understand how large applications can be broken down into smaller reusable pieces. I also gained experience with React project structure, imports and exports, rendering components, and managing state within components.
